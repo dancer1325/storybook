@@ -4,93 +4,34 @@
       <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/263385/199832481-bbbf5961-6a26-481d-8224-51258cce9b33.png">
       <img src="https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png" alt="Storybook" width="400" />
     </picture>
-    
-  </a>
-  
-</p>
-
-<p align="center">Build bulletproof UI components faster</p>
-
-<br/>
-
-<p align="center">
-  <a href="https://circleci.com/gh/storybookjs/storybook">
-    <img src="https://circleci.com/gh/storybookjs/storybook.svg?style=shield" alt="Build Status on CircleCI" />
-  </a>
-  <a href="https://codecov.io/gh/storybookjs/storybook">
-    <img src="https://codecov.io/gh/storybookjs/storybook/branch/main/graph/badge.svg" alt="codecov" />
-  </a>
-  <a href="https://github.com/storybookjs/storybook/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/storybookjs/storybook.svg" alt="License" />
-  </a>
-  <br/>
-  <a href="https://discord.gg/storybook">
-    <img src="https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat" />
-  </a>
-  <a href="https://storybook.js.org/community/?ref=readme">
-    <img src="https://img.shields.io/badge/community-join-4BC424.svg" alt="Storybook Community" />
-  </a>
-  <a href="#backers">
-    <img src="https://opencollective.com/storybook/backers/badge.svg" alt="Backers on Open Collective" />
-  </a>
-  <a href="#sponsors">
-    <img src="https://opencollective.com/storybook/tiers/sponsors/badge.svg" alt="Sponsors on Open Collective" />
-  </a>
-  <a href="https://x.com/intent/follow?screen_name=storybookjs">
-    <img src="https://img.shields.io/twitter/follow/storybookjs?color=blue&logo=twitter" alt="Official Twitter Handle" />
-  </a>
-  <a href="https://api.securityscorecards.dev/projects/github.com/storybookjs/storybook">
-    <img src="https://api.securityscorecards.dev/projects/github.com/storybookjs/storybook/badge" alt="OpenSSF Scorecard"/>
   </a>
 </p>
 
-<p align="center">
-Storybook is a frontend workshop for building UI components and pages in isolation. Thousands of teams use it for UI development, testing, and documentation. Find out more at <a href="https://storybook.js.org/?ref=readme">storybook.js.org</a>!
-</p>
-
-<center>
-  <img src="https://raw.githubusercontent.com/storybookjs/storybook/refs/heads/release-6-5/media/storybook-intro.gif" width="100%" />
-</center>
-
-<p align="center">
-  View README for:<br/>
-  <a href="https://github.com/storybookjs/storybook/blob/main/README.md" title="latest"><img alt="latest" src="https://img.shields.io/npm/v/@storybook/react/latest?style=for-the-badge&logo=storybook&logoColor=ffffff&color=66BF3C" /></a>
-  <a href="https://github.com/storybookjs/storybook/blob/next/README.md" title="next"><img alt="next" src="https://img.shields.io/npm/v/@storybook/react/next?style=for-the-badge&logo=storybook&logoColor=ffffff&color=1EA7FD" /></a>
-</p>
-
-## Table of contents
-
-- 🚀 [Getting Started](#getting-started)
-- 📒 [Projects](#projects)
-  - 🛠 [Supported Frameworks & Examples](#supported-frameworks)
-  - 🔗[Addons](#addons)
-- 🏅 [Badges & Presentation materials](#badges--presentation-materials)
-- 👥 [Community](#community)
-- 👏 [Contributing](#contributing)
-  - 👨‍💻 [Development scripts](#development-scripts)
-  - 💸 [Sponsors](#sponsors)
-  - 💵 [Backers](#backers)
-- :memo: [License](#license)
+* Storybook 
+  * == frontend workshop /
+    * open source
+    * free
+  * allows
+    * building isolated UI components & pages 
+      * isolated == WITHOUT run WHOLE app
+  * uses
+    * UI 
+      * development
+      * testing
+      * documentation
+  * [use cases](https://storybook.js.org/showcase?ref=readme)
 
 ## Getting Started
 
-Visit [Storybook's website](https://storybook.js.org/?ref=readme) to learn more about Storybook and to get started.
-
 ### Documentation
 
-Documentation can be found on [Storybook's docs site](https://storybook.js.org/docs?ref=readme).
+* [here](docs/index.md)
+* _Examples:_
+  * [|Stackblitz](https://storybook.new)
 
-### Examples
-
-View [Component Encyclopedia](https://storybook.js.org/showcase?ref=readme) to see how leading teams use Storybook.
-
-Use [storybook.new](https://storybook.new) to quickly create an example project in Stackblitz.
-
-Storybook comes with a lot of [addons](https://storybook.js.org/docs/configure/user-interface/storybook-addons?ref=readme) for component design, documentation, testing, interactivity, and so on. Storybook's API makes it possible to configure and extend in various ways. It has even been extended to support React Native, Android, iOS, and Flutter development for mobile.
-
-### Community
-
-For additional help, share your issue in [the repo's GitHub Discussions](https://github.com/storybookjs/storybook/discussions/new?category=help).
+Storybook comes with a lot of [addons](https://storybook.js.org/docs/configure/user-interface/storybook-addons?ref=readme) for component design, documentation, testing, interactivity, and so on
+* Storybook's API makes it possible to configure and extend in various ways
+* It has even been extended to support React Native, Android, iOS, and Flutter development for mobile.
 
 ## Projects
 
@@ -175,7 +116,8 @@ Looking for a first issue to tackle?
 
 ### Development scripts
 
-Storybook is organized as a monorepo. Useful scripts include:
+Storybook is organized as a monorepo
+* Useful scripts include:
 
 #### `yarn start`
 
@@ -198,46 +140,3 @@ Storybook is organized as a monorepo. Useful scripts include:
 > boolean check if unit tests all pass - uses jest
 
 - `yarn run test --core --watch` - will run core tests in watch-mode
-
-### Sponsors
-
-Become a sponsor to have your logo and website URL on our README on Github. \[[Become a sponsor](https://opencollective.com/storybook#sponsor)]
-
-<a href="https://opencollective.com/storybook/tiers/sponsors/0/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/0/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/1/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/1/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/2/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/2/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/3/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/3/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/4/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/4/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/5/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/5/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/6/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/6/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/7/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/7/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/8/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/8/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/9/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/9/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/10/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/10/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/11/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/11/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/12/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/12/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/13/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/13/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/14/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/14/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/15/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/15/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/16/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/16/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/17/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/17/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/18/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/18/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/19/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/19/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/20/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/20/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/21/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/21/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/22/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/22/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/23/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/23/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/24/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/24/avatar.svg?requireActive=true"></a>
-<a href="https://opencollective.com/storybook/tiers/sponsors/25/website?requireActive=true" target="_blank"><img src="https://opencollective.com/storybook/tiers/sponsors/25/avatar.svg?requireActive=true"></a>
-
-### Backers
-
-By making a recurring donation, you can support us and our work. \[[Become a backer](https://opencollective.com/storybook#backer)]
-
-<a href="https://opencollective.com/storybook"><img src="https://opencollective.com/storybook/tiers/backers.svg?limit=80&button=false&avatarHeight=46&width=750"></a>
-
-## License
-
-[MIT](https://github.com/storybookjs/storybook/blob/main/LICENSE)
-
--the end-
